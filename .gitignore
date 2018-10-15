@@ -1,0 +1,20 @@
+# dirs
+.gradle/
+.idea/
+build/
+test/
+androidTest/
+
+# files
+*.iml
+
+# unknown
+/captures
+.DS_Store
+.externalNativeBuild
+
+# 自定义属性配置文件
+local.properties
+
+# 内存泄露文件，一般很大 G级别
+*.hprof

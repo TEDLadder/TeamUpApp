@@ -1,0 +1,13 @@
+include ':launcher'
+
+// base 基础包
+include ':common'
+include ':network'
+include ':webimg'
+include ':view'
+
+// business 业务包
+include ':browser'
+
+// test 测试包，典型bug/测试第三方库的代码，可以留下记录共享
+include ':testlib'

@@ -1,0 +1,18 @@
+/*
+* 目前lib都集成在总项目里，在这里统一配置。之后拆包，修改强制依赖等配置
+*/
+ext {
+    applicationId = "com.tempupapp.launcher"
+
+    compileSdkVersion = 27
+    buildToolsVersion = "27.0.3"
+    minSdkVersion = 19
+    targetSdkVersion = 26
+
+    versionCode = 101
+    versionName = '0.0.1'
+
+
+    supportLibVersion = "27.1.1"
+    appcompatv7 = "com.android.support:appcompat-v7:${supportLibVersion}"
+}
